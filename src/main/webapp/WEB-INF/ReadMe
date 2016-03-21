@@ -1,0 +1,18 @@
+Add table name & create structure.
+Database: placementdb
+Schema: room_allotment
+Table:
+CREATE TABLE room_allotment.allotment
+(
+  allotment_id INT PRIMARY KEY NOT NULL,
+  company_name text NOT NULL,
+  round_no text,
+  room_no text,
+  job_description text,
+  drive_date date
+)
+WITH (
+  OIDS=FALSE
+);
+
+This task provides room allotment form .
